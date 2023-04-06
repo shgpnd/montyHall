@@ -1,0 +1,42 @@
+body {
+  width: 600px;
+  background-color: #efefef;
+  margin: 0 auto;
+}
+
+header {
+  background-color: skyblue;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+main {
+  background-color: #fff;
+  height: 800px;
+}
+
+a:hover,
+iframe:hover {
+  opacity: .7;
+}
+
+table {
+  margin: 0 auto;
+  table-layout: fixed;
+  width: 80%;
+}
+
+td {
+  padding: 10px 0;
+  word-wrap: break-word;
+  width: 100%;
+  border: 1.5px solid black;
+}
+
+iframe {
+  margin-left: 10px;
+}
+
