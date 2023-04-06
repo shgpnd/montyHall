@@ -1,0 +1,89 @@
+#order {
+  text-align: center;
+}
+
+.select_door {
+  margin: 0 auto;
+  width: 400px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.select_door > div {
+  width: 100px;
+}
+
+
+input {
+  transform:scale(2.0);
+  margin: 0;
+  top: .2em;
+  left: 2em;
+  position: absolute;
+}
+
+form {
+  margin-left: 35px;
+  position: relative;
+}
+
+.image {
+  padding-top: 10px;
+  width: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.door { 
+  background-color: orange;
+  width: 100px;
+  z-index: 100;
+  /* opacity: .2; */
+  position: absolute;
+
+}
+
+.answer {
+  z-index: 1;
+  padding-top: 40px;
+  width: 100px;
+}
+
+.ok_button {
+text-align: center;
+}
+
+.ok_button > button {
+  height: 50px;
+  font-size: 20px;
+}
+
+.ok_button > button + button {
+  margin-left: 50px;
+}
+
+#result {
+  text-align: center;
+}
+
+table {
+  text-align: center;
+  margin: 30px auto;
+  border: 2px solid #aaa;
+  width: 400px;
+  border-collapse: collapse;
+}
+
+tr {
+  border: 2px solid #aaa;
+}
+
+td {
+  width: 33%;
+  border: 2px solid #aaa;
+}
+
+.xtimes::after {
+  content: "  回";
+}

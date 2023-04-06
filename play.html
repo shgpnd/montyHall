@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/play.css">
+  <title>モンティ・ホール問題をやってみよう</title>
+</head>
+<body>
+<div id="order">
+  <h2>①３つのドアのうち、１つ選択してください。</h2>
+</div>
+<section class="select_door">
+<div class="radio">
+  <form name="selection">
+    A<input type="radio" name="selected0" value="0" checked>
+  </form>
+  <div class="image">
+      <img class="door" src="images/door.png" alt="">
+      <img class="answer" src="" alt="">
+  </div>
+</div>
+
+<div class="radio">
+  <form name="selection">
+  B<input type="radio" name="selected1" value="1">
+  </form>
+  <div class="image">
+    <img class="door" src="images/door.png" alt="">
+    <img class="answer" src="" alt="">
+  </div>
+</div>
+
+<div class="radio">
+  <form name="selection">
+    C<input type="radio" name="selected2" value="2">
+  </form>
+  <div class="image">
+      <img class="door" src="images/door.png" alt="">
+      <img class="answer" src="" alt="">
+  </div>
+</div>
+</section>
+
+<section class="ok_button">
+  <button>OK
+  </button>
+</section>
+<section class="ok_button">
+  <button style="display: none;">変える
+  </button>
+  <button style="display: none;">変えない
+  </button>
+</section>
+<section class="ok_button">
+  <button style="display: none;">全てのドアを開ける
+  </button>
+</section>
+<section class="ok_button">
+  <button style="display: none;">もう一度挑戦する
+  </button>
+</section>
+
+<section id="result">
+  <p></p>
+  <table>
+    <tr>
+      <td>変更して正解</td>
+      <td>変更せずに正解</td>
+      <td>不正解</td>
+    </tr>
+    <tr>
+      <td class="xtimes">0</td>
+      <td class="xtimes">0</td>
+      <td class="xtimes">0</td>
+    </tr>
+  </table>
+</section>
+<script src="js/play.js"></script>
+<script src="js/button.js"></script>
+</body>
+</html>

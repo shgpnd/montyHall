@@ -1,0 +1,47 @@
+body {
+  width: 600px;
+  background-color: #efefef;
+  margin: 0 auto;
+}
+
+header {
+  background-color: skyblue;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+main {
+  background-color: #fff;
+}
+
+a:hover,
+iframe:hover {
+  opacity: .7;
+}
+
+table {
+  margin: 0 auto;
+  table-layout: fixed;
+  width: 80%;
+}
+
+td {
+  padding: 10px 0;
+  word-wrap: break-word;
+  width: 100%;
+  border: 1.5px solid black;
+}
+
+iframe {
+  margin-left: 10px;
+}
+
+/* https://www.kcg.edu/column/2009-04
+https://sakkado.com/goodchoice/
+
+https://www.youtube.com/watch?v=1MuwwFipX9o
+https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9B%E3%83%BC%E3%83%AB%E5%95%8F%E9%A1%8C
+*/

@@ -1,0 +1,18 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: right;
+}
+
+button {
+  line-height: 50px;
+  font-size: 30px;
+}
